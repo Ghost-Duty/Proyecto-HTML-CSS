@@ -1,0 +1,96 @@
+header{
+    text-align: center;
+}
+#Patriota {
+    width: 150px;
+    height: 300px;
+    position: relative;
+}
+body {
+    background-color: black; 
+    color: rgb(255, 255, 255); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial
+}
+body, p, span {
+    font-family: Calibri;
+    font-size: 18px;
+}
+#Quien, #Historia, #Psicologico, #Hazañas{
+   text-align: center;
+   margin: 5%;
+}
+#Lista2 {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#Menu {
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+    gap: 30px;
+    justify-content: center;
+}
+#Menu li {
+    background-color: darkblue;
+    border: 4px solid red;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px;
+    text-align: center;
+    color: whitesmoke;
+    font: bold 16px Arial, sans-serif;
+}
+#Menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#Menu li:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+p, h1, h2 {
+    font-size: 1.5rem; 
+}
+
+
+@media (max-width: 768px)   {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    img {
+        width: 100%; 
+    }
+    p, h1, h2 {
+        font-size: 1.2rem;
+    }
+}
