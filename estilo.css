@@ -151,6 +151,16 @@ p, h1, h2 {
     header {
         padding: 10px;
     }
+
+    #Patriota {
+        display: block; 
+        margin: 20px auto; 
+        clear: both; 
+    }
+
+    #Introduccion {
+        text-align: center; 
+    }
 }
 
 @media (max-width:600px) {
