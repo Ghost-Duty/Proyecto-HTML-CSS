@@ -67,7 +67,6 @@ footer {
 
 .container {
     display: flex;
-    flex-direction: row; 
     justify-content: space-between;
     padding: 20px;
 }
@@ -99,72 +98,17 @@ p, h1, h2 {
 
 @media (max-width: 600px) {
     body {
-        font-size: 16px;
-        padding: 10px;
-    }
-
-    #Menu {
-        flex-direction: column;
-        gap: 15px;
-        padding: 0;
-    }
-
-    #Menu li {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-    }
-
-    #Menu li a {
-        display: block;
-        width: 100%;
-        color: white;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
+        font-size: 14px;
     }
 
     #Patriota {
-        width: 80%; 
-        height: auto; 
-        margin: 0 auto;
-    }
-
-    #Quien, #Historia, #Psicologico, #Hazañas {
-        margin: 10%;
-    }
-
-    header h1 {
-        font-size: 20px;
-        line-height: 1.2;
-        text-align: center;
-    }
-
-    header img {
-        width: 30px;
-        height: auto;
-        vertical-align: middle;
-    }
-
-    header {
-        padding: 10px;
-    }
-
-    #Patriota {
+        float: none; 
         display: block; 
         margin: 20px auto; 
         clear: both; 
     }
 
     #Introduccion {
-        text-align: center; 
-    }
-}
-
-@media (max-width:600px) {
-    body {
-        font-size: 14px;
+        text-align: center;
     }
 }
