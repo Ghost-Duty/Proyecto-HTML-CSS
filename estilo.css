@@ -61,12 +61,7 @@ body, p, span {
     background-color: red;
     color: whitesmoke;
 }
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-}
+
 
 .container {
     display: flex;
